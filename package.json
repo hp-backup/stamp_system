@@ -1,0 +1,29 @@
+{
+  "name": "stampsystem-api-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/hpb_training/stampsystem-api-nodejs.git"
+  },
+  "author": "joseph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/hpb_training/stampsystem-api-nodejs/issues"
+  },
+  "homepage": "https://gitlab.com/hpb_training/stampsystem-api-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0"
+  }
+}

@@ -14,5 +14,5 @@ server.listen(port, () => {
 server.use('/auth', auth);
 
 server.get('/', function (req, res) {
-    return res.send('Hello World! welcome to my site')
+    return res.send('Hello World! welcome to my site!')
 });
